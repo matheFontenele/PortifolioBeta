@@ -1,0 +1,24 @@
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social li img{
+    transition:
+    rotate 3s;
+}
+
+.social li img:hover{
+  rotate: 720deg;
+}
+
+@media (max-width: 850px) {
+  .social li img{
+      max-width: 1.5rem;
+  }
+   
+  .social{
+    justify-content: center;
+    gap: 1rem;
+  }
+}

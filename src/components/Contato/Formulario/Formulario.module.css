@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDiv, .textarea{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.inputDiv input, .textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--verde);
+}
+
+.inputDiv label{
+    color: var(--branco);
+}
+
+.textarea{
+    flex: 1;
+    display: flex;
+    min-height: max-content;
+}
+
+.btnMsg{
+    border: 1px solid var(--verde);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: var(--branco);
+    align-self: center;
+}
+
+.btnMsg:hover{
+    background-color: var(--verde);
+}

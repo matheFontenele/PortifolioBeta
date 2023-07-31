@@ -1,0 +1,138 @@
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+    font-family: var(--fonte-principal);
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+div .titulo:nth-child(1){
+    font-family: var(--fonte-principal);
+    color: var(--verde);
+}
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imagens {
+    position: relative;
+    height: 406px;
+}
+
+.imagens > .minhaFoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18vw;
+    border-radius: 50%;
+    box-shadow:
+  14.7px 17px 11px #0000004d,
+  117px 136px 88px #00000026
+;
+
+}
+
+.imagens > .circuloColorido {
+    position: absolute;
+    right: 7vw;
+    bottom: 2.2vw;
+    width: 25vw;
+}
+
+.skills{
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectsIntro{
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+.projectsIntro i{
+    color: var(--verde);
+    font-size: 2rem;
+    padding: 0 5px;
+}
+
+.projectsIntro i:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: -5px;
+}
+
+/*Responsivo CSS*/
+
+
+  @media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens > .minhaFoto {
+        width: 25vw;
+    }
+
+    .imagens > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens > .minhaFoto, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}

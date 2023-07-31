@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background: var(--background-linear);
+    border-bottom: 3px solid var(--verde) ;
+}
+
+.header span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header ul li{
+    font-size: 1.5rem;
+    padding: 5px;
+    color: var(--branco);
+    opacity: 0.8;
+}
+
+.header ul li:hover, .contactMe:hover{
+   opacity: 1;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--verde);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    color: var(--branco);
+}
+
+.nameMe h1:first-child{
+    color: rgb(92, 92, 90);
+}
+
+.nameMe h1:last-child{
+    color: #fff;
+}
+
+.nameMe h1{
+    font-size: 1rem;
+}

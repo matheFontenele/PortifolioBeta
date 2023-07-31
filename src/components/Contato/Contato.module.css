@@ -1,0 +1,49 @@
+.contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid var(--verde);
+    border-radius: 20px;
+    margin: 2rem 5rem;
+    background: var(--background-escura);
+}
+
+.cafe{
+    width: 30rem;
+}
+
+.socialLinks{
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem 0;
+}
+
+.socialLinks h2{
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+.socialLinks p{
+    color: var(--branco);
+}
+
+
+/*Responsivo CSS*/
+
+@media (max-width: 850px) {
+    .contato{
+        display: grid;
+        margin: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .cafe{
+        display: none;
+    }
+
+    .socialLinks{
+        margin: 1rem;
+    }
+
+}
