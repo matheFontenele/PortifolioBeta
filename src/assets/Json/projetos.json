@@ -18,7 +18,7 @@
             "name": "AniTube",
             "img": "https://pbs.twimg.com/profile_images/730026649136332800/LYR4uaUV_400x400.jpg",
             "descri": "Streaming de animes com layout baseado na Netflix feito em React TypeScript e SASS",
-            "url":"https://github.com/matheFontenele/Portifolio"
+            "url":"https://github.com/matheFontenele/anitube"
         }
 
 ]

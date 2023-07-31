@@ -21,7 +21,7 @@
 
 .socialLinks h2{
     color: var(--verde);
-    text-transform: uppercase;
+    text-transform: uppercase;;
 }
 
 .socialLinks p{
@@ -46,4 +46,11 @@
         margin: 1rem;
     }
 
+}
+
+@media (max-width: 320px){
+    .contato{
+        display: flex;
+        flex-direction: column;
+    }
 }

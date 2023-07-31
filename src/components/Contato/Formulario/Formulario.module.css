@@ -46,3 +46,17 @@
 .btnMsg:hover{
     background-color: var(--verde);
 }
+
+@media (max-width: 320px){
+    .form form{
+        width: 12rem;
+    }
+    .inputDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputDiv input{
+        margin-top: -10px;
+    }
+}
