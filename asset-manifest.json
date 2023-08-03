@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/matheFontenele/Portifolio.git/static/css/main.22b075ca.css",
-    "main.js": "/matheFontenele/Portifolio.git/static/js/main.6d39a525.js",
-    "static/media/circulo.png": "/matheFontenele/Portifolio.git/static/media/circulo.3372f177c8f6027a4a46.png",
-    "static/media/coffee.svg": "/matheFontenele/Portifolio.git/static/media/coffee.883f3d72bc487a50b763d000aa86d81c.svg",
-    "index.html": "/matheFontenele/Portifolio.git/index.html",
-    "main.22b075ca.css.map": "/matheFontenele/Portifolio.git/static/css/main.22b075ca.css.map",
-    "main.6d39a525.js.map": "/matheFontenele/Portifolio.git/static/js/main.6d39a525.js.map"
+    "main.css": "/Portifolio/static/css/main.22b075ca.css",
+    "main.js": "/Portifolio/static/js/main.bf6a8574.js",
+    "static/media/circulo.png": "/Portifolio/static/media/circulo.3372f177c8f6027a4a46.png",
+    "static/media/coffee.svg": "/Portifolio/static/media/coffee.883f3d72bc487a50b763d000aa86d81c.svg",
+    "index.html": "/Portifolio/index.html",
+    "main.22b075ca.css.map": "/Portifolio/static/css/main.22b075ca.css.map",
+    "main.bf6a8574.js.map": "/Portifolio/static/js/main.bf6a8574.js.map"
   },
   "entrypoints": [
     "static/css/main.22b075ca.css",
-    "static/js/main.6d39a525.js"
+    "static/js/main.bf6a8574.js"
   ]
 }
