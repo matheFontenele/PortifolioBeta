@@ -19,6 +19,13 @@
             "img": "https://pbs.twimg.com/profile_images/730026649136332800/LYR4uaUV_400x400.jpg",
             "descri": "Streaming de animes com layout baseado na Netflix feito em React TypeScript e SASS",
             "url":"https://github.com/matheFontenele/anitube"
+        },
+        {
+            "id": 4,
+            "name": "Aluroni",
+            "img": "https://raw.githubusercontent.com/alura-cursos/aluroni-introducao/e458a18c4b2d50c799f1259c8f1bff56116feb51/src/assets/logo.svg",
+            "descri": "Restaurante ficticio feito em React Typescript, SASS, projeto Alura replicado",
+            "url":"https://github.com/matheFontenele/Aluroni"
         }
 
 ]

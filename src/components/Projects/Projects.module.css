@@ -1,18 +1,23 @@
 .projetos{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin: 2rem;
     border: 1px solid green;
 }
 
 .posts {
-    padding: 0 6vw 3.625rem;
+    padding: 0 6vw ;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
     gap: 1.5rem;
     margin-top: -2.5rem;
     border-radius: 20px;
+}
+
+.posts::-webkit-scrollbar{
+    display: none;
 }
 
 .post {
@@ -24,6 +29,7 @@
     border-radius: 20px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
+    flex: none;
 }
 
 .post img{
@@ -72,3 +78,21 @@
     border: 3px solid var(--azul-escuro);
 }
 
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.30);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--branco);
+    opacity: 0.8;
+}
+
+.scroll:hover{
+  opacity: 1;
+}

@@ -1,5 +1,6 @@
 import styles from './Banner.module.css'
 import elipse from '../../assets/imgs/circulo.png'
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoTypescript, BiLogoReact, BiLogoSass} from 'react-icons/bi'
 const minhaFoto = 'https://github.com/matheFontenele.png'
 
 
@@ -15,15 +16,17 @@ export default function Banner(){
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Desenvolvedor Front End com conhecimento em HTML5, CSS3, JavaScript e React, domionio de React Router.
+                    Desenvolvedor Front End apaixonado por designer web, com conhecimento em HTML5, CSS3, JavaScript, TypesScrip, SASS, e diversas bibliotecas do React, sempre buscando expandir meus conhecimentos no Front End e de vez em quando me arriscando no Back.
                 </p>
 
 
                 <ul className={styles.skills}>
-                    <i className="fa-brands fa-html5"></i>
-                    <i className="fa-brands fa-css3-alt"></i>
-                    <i className="fa-brands fa-square-js"></i>
-                    <i className="fa-brands fa-react"></i>
+                    <BiLogoHtml5/>
+                    <BiLogoCss3/>
+                    <BiLogoJavascript/>
+                    <BiLogoTypescript/>
+                    <BiLogoReact/>
+                    <BiLogoSass/>
                 </ul>
 
                 <h2 className={styles.projectsIntro}><i className="fa-solid fa-angle-left"></i>Confira abaixo alguns dos meus principais projetos<i>/</i><i className="fa-solid fa-angle-right"></i></h2>
